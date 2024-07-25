@@ -1477,9 +1477,9 @@ public:
             break;
         }
     }
-
+double a0 = 0, a1 = 0, a2 = 0, b1 = 0, b2 = 0;
 private:
-    double a0 = 0, a1 = 0, a2 = 0, b1 = 0, b2 = 0;
+    
     filterTypes filterType;
     const double SQRT2 = sqrt(2.0);
     double v[3] = {0, 0, 0};
